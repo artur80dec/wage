@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>obliczanie wagi objętościowej</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="marian">
+            <fieldset>
+                <legend>Obliczanie wagi wymiarowej dla klienta indywidualnego:</legend>
+                <p>
+                    <label for="length">długość w cm (max 100cm)</label>
+                    <input type="number" id="length" name="length" max="100">
+                </p>
+                <p>
+                    <label for="width">Szerokość w cm (max 67cm)</label>
+                    <input type="number" id="width" name="width" max="67">
+                </p>
+                <p>
+                    <label for="high">Wysokość w cm (max 60cm)</label>
+                    <input type="number" name="high" id="high" max="60">
+                </p>
+                <button class="count">Oblicz</button>
+                <button class="reset">Resetuj</button>
+                <p class="result"></p>
+            </fieldset>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
